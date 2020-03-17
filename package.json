@@ -1,0 +1,53 @@
+{
+  "name": "connepi-researchers-front-end-nuxt",
+  "version": "1.0.0",
+  "description": "A digital repository for CONNEPI papers",
+  "author": "Otacílio Neto",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "yarn lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.19.0",
+    "echarts": "^4.2.1",
+    "file-saver": "^2.0.2",
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0",
+    "raleway-npm-webfont": "0.0.1",
+    "v-charts": "^1.19.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "file-loader": "^5.1.0",
+    "husky": "^4.2.3",
+    "jest": "^24.1.0",
+    "lint-staged": "^10.0.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "url-loader": "^3.0.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}
