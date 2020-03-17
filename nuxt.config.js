@@ -80,4 +80,8 @@ export default {
      */
     extend(config, ctx) {},
   },
+  env: {
+    VUE_APP_API_URL:
+      'https://connepi-api.herokuapp.com' || 'http://localhost:3000',
+  },
 };
