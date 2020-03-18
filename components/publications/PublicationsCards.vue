@@ -51,10 +51,7 @@ export default {
   methods: {
     show(publication) {
       if (publication.file_url !== null) {
-        const route = this.$router.resolve({
-          path: `/publications/${publication.id}`,
-        });
-        window.open(route.href, '_blank');
+        window.open(`/publicacoes/${publication.id}`, '_blank');
       }
     },
   },

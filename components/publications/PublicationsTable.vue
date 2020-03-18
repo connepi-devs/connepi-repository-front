@@ -80,10 +80,9 @@ export default {
   },
   methods: {
     show(publication) {
-      const route = this.$router.resolve({
-        path: `/publications/${publication.id}`,
-      });
-      window.open(route.href, '_blank');
+      if (publication.file_url !== null) {
+        window.open(`/publicacoes/${publication.id}`, '_blank');
+      }
     },
   },
 };
