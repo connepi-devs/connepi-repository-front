@@ -26,7 +26,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/styles/main.css'],
+  css: ['~/assets/styles/main.css', 'raleway-npm-webfont/style.scss'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -70,6 +70,7 @@ export default {
         iconfont: 'mdi',
       },
     },
+    treeShake: true,
   },
   /*
    ** Build configuration

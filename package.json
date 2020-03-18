@@ -27,7 +27,7 @@
     "file-saver": "^2.0.2",
     "lodash": "^4.17.15",
     "nuxt": "^2.0.0",
-    "raleway-npm-webfont": "0.0.1",
+    "raleway-npm-webfont": "^0.0.1",
     "v-charts": "^1.19.0"
   },
   "devDependencies": {
